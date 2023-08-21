@@ -12,7 +12,7 @@ public class Ex09 {
 
         scan.close();
 
-        float newWage = wage + adjustment*wage/100;
+        float newWage = wage + adjustment*wage/100f;
 
         System.out.println(String.format("Novo salario: %.2f", newWage));
     }

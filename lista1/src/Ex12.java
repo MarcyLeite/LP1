@@ -8,7 +8,7 @@ public class Ex12 {
         float temperatureF = scan.nextFloat();
         scan.close();
 
-        float temperatureC = (temperatureF - 32) * 5 / 9;
+        float temperatureC = (temperatureF - 32f) * 5f / 9f;
 
         System.out.println(String.format("Temperature em Celsius: %.2f", temperatureC));
     }

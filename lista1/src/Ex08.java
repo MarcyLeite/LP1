@@ -22,9 +22,9 @@ public class Ex08 {
         if (validTotal + nullTotal + whiteTotal > votersTotal) {
             throw new Exception("Votes Sum cannot be greater than total");
         }
-        float whitePercentual = whiteTotal*100/votersTotal;
-        float nullPercentual = nullTotal*100/votersTotal;
-        float validPercentual = validTotal*100/votersTotal;
+        float whitePercentual = (float)whiteTotal*100f/(float)votersTotal;
+        float nullPercentual = (float)nullTotal*100f/(float)votersTotal;
+        float validPercentual = (float)validTotal*100f/(float)votersTotal;
 
         System.out.println(String.format("Total de Eleitores: %d", votersTotal));
         System.out.println(String.format("Porcentagem de votos Brancos: %.2f%s", whitePercentual, "%"));

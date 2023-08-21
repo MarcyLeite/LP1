@@ -3,9 +3,9 @@ public class Ex01 {
         int a = 10;
         int b = 20;
 
-        int temp_a = a;
+        int tempA = a;
         a = b;
-        b = temp_a;
+        b = tempA;
         
         System.out.println("A: " + String.valueOf(a) + "\nB: " + String.valueOf(b));
     }
