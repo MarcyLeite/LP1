@@ -14,10 +14,10 @@ public class Ex11 {
         float wageFixed = scan.nextFloat();
 
         System.out.print("Valor da comissão por carro: ");
-        float commisionFixed = scan.nextFloat();
+        float commissionFixed = scan.nextFloat();
         scan.close();
 
-        float wage = wageFixed + commisionFixed * sellCount + (sellTotal*0.05f);
+        float wage = wageFixed + commissionFixed * sellCount + (sellTotal*0.05f);
 
         System.out.println(String.format("Salario final: %.2f", wage));
     }
